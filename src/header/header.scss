@@ -1,0 +1,37 @@
+.header{
+    width: $desktopWidth;
+    
+    margin-top: 5px ;
+    opacity: 80%;
+    
+    @media (max-width:$desktopWidth){
+        width: 98%;
+        
+    }
+    &__logo__container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: rgb(30, 30, 30);
+        
+        p{
+            font-size: $headerSize;
+            margin: 10px 0px;
+        }
+    }
+
+
+
+    &__navigation{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    &__navigation__item{
+        
+        margin: 0px 5px;
+    }
+}
